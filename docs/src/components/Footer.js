@@ -45,7 +45,7 @@ export const Footer = (props) => {
                   </li>
                   <li className="mt-4">
                     <a
-                      href="https://github.com/tannerlinsley/react-query/releases"
+                      href="https://github.com/hyperjumptech/http-probe/releases"
                       className="text-base leading-6 text-gray-500 hover:text-gray-900"
                     >
                       Releases
@@ -54,12 +54,12 @@ export const Footer = (props) => {
                   <li className="mt-4">
                     <a
                       className="github-button"
-                      href="https://github.com/tannerlinsley/react-query"
+                      href="https://github.com/hyperjumptech/http-probe"
                       data-color-scheme="no-preference: light; light: light; dark: dark;"
                       data-icon="octicon-star"
                       data-size="large"
                       data-show-count="true"
-                      aria-label="Star tannerlinsley/react-query on GitHub"
+                      aria-label="Star hyperjumptech/http-probe on GitHub"
                     >
                       Star
                     </a>

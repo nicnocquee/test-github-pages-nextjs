@@ -27,18 +27,18 @@
       "routes": [
         {
           "title": "Probes",
-          "path": "/guides/important-defaults",
-          "editUrl": "/guides/important-defaults.md"
+          "path": "/guides/probes",
+          "editUrl": "/guides/probes.md"
         },
         {
           "title": "Notifications",
-          "path": "/guides/queries",
-          "editUrl": "/guides/queries.md"
+          "path": "/guides/notifications",
+          "editUrl": "/guides/notifications.md"
         },
         {
           "title": "Alerts",
-          "path": "/guides/query-keys",
-          "editUrl": "/guides/query-keys.md"
+          "path": "/guides/alerts",
+          "editUrl": "/guides/alerts.md"
         }
       ]
     }

@@ -44,7 +44,7 @@ On a more technical note, HTTPProbe will likely:
 
 In the example below, you can see HTTPProbe in its most basic and simple form being used to fetch the GitHub stats for the HTTPProbe GitHub project itself:
 
-[Open in CodeSandbox](https://codesandbox.io/s/github/tannerlinsley/react-query/tree/master/examples/simple)
+[Open in CodeSandbox](https://codesandbox.io/s/github/hyperjumptech/http-probe/tree/master/examples/simple)
 
 ```js
 import { QueryClient, QueryClientProvider, useQuery } from "react-query";
@@ -61,9 +61,9 @@ export default function App() {
 
 function Example() {
   const { isLoading, error, data } = useQuery("repoData", () =>
-    fetch(
-      "https://api.github.com/repos/tannerlinsley/react-query"
-    ).then((res) => res.json())
+    fetch("https://api.github.com/repos/hyperjumptech/http-probe").then((res) =>
+      res.json()
+    )
   );
 
   if (isLoading) return "Loading...";
